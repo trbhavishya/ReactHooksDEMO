@@ -1,0 +1,42 @@
+.box {
+  width: 150px;
+  height: 130px;
+  border-radius: 7px;
+  border: solid 5px #eee;
+  margin-right: 20px;
+}
+
+.box .heading {
+  font-weight: bold;
+  height: 30px;
+  background: #eee;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 17px;
+}
+
+.box .body {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.box .body .adult {
+  width: 50px;
+}
+
+.box .body .children {
+  width: 70px;
+}
+
+.dropdown {
+  margin-top: 10px;
+}
+
+.disabled {
+  background: #eee;
+}
+
+.space {
+  margin: 2vh;
+}
