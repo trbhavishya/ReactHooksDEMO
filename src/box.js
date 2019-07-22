@@ -14,22 +14,6 @@ const box = ({ room, checked, click }) => {
         />
         &nbsp;Room {room}
       </div>
-      <div className="body">
-        <div className="adult ">
-          <label>Adults (18+)</label>
-          <select className="dropdown" id="room4adult" disabled={!checked}>
-            <option>0</option>
-            <option>1</option>
-          </select>
-        </div>
-        <div className="children">
-          <label>Children (18+)</label>
-          <select className="dropdown" id="room4children" disabled={!checked}>
-            <option>0</option>
-            <option>1</option>
-          </select>
-        </div>
-      </div>
     </div>
   );
 };
