@@ -1,9 +1,9 @@
 import React from "react";
 
-const box = ({ room, checked, click }) => {
+function Box({ room, checked, click }) {
   const disabledStyle = !checked ? "box disabled space" : "box space";
   return (
-    <div id="box4" className={disabledStyle}>
+    <div id={`box${room}`} className={disabledStyle}>
       <div className="heading">
         <input
           type="checkbox"
@@ -16,6 +16,6 @@ const box = ({ room, checked, click }) => {
       </div>
     </div>
   );
-};
+}
 
-export default box;
+export default Box;
